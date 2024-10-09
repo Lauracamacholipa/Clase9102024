@@ -12,9 +12,24 @@
         .foo, .bar{
             color:green;
         }
+        .abuelo .nieto{
+            color:red;
+        }
     </style>
 </head>
 <body>
+    <div class="abuelo">
+        <div class="hijo">
+            <div class="nieto">Soy el nieto 1</div>
+            <div class="nieto">Soy el nieto 2</div>
+        </div>
+        <div class="hijo">Soy el hijo 2</div>
+    </div>
+    <div class="nieto">
+        El otro nieto
+    </div>
+
+    <!--
     <p class="foo">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat praesentium aperiam, nemo corrupti amet veritatis. Eaque, nobis. Magni minima, harum magnam repudiandae architecto natus, deleniti molestiae dicta accusamus ipsam recusandae?
     </p>
@@ -23,6 +38,6 @@
     </div>
     <div class="baz">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique, ratione velit consectetur inventore impedit dolores cumque architecto sequi ipsum sunt asperiores dicta beatae esse aut, quasi laudantium accusantium nostrum.
-    </div>
+    </div>-->
 </body>
 </html>
