@@ -6,28 +6,42 @@
     <title>Document</title>
     <!--<link rel="stylesheet" href="estilo.css">-->
     <style>
-        /*p::first-line{
-            color:red;
+        /*.hijo1 ~ div{
+            color:violet;
         }*/
-        .foo, .bar{
+        /*.foo{
             color:green;
         }
-        .abuelo .nieto{
+        #bar{
             color:red;
+        }*/
+        #outer a{
+            background-color: red;
         }
+        #outer #inner a{
+            background-color: blue;
+        }
+
+
+
     </style>
 </head>
 <body>
-    <div class="abuelo">
-        <div class="hijo">
-            <div class="nieto">Soy el nieto 1</div>
-            <div class="nieto">Soy el nieto 2</div>
+    <div id="outer">
+        <div id="inner">
+            <a href="">HOLA MUNDO</a>
         </div>
+    </div>
+
+    <!--<p class="foo bar" id="bar">HOLA</p>-->
+
+
+    <!--<div class="abuelo">
+        <div class="hijo1">Soy el hijo 1</div>
         <div class="hijo">Soy el hijo 2</div>
-    </div>
-    <div class="nieto">
-        El otro nieto
-    </div>
+        <p>Soy el hijo 4</p>
+        <div class="hijo">Soy el hijo 3</div>
+    </div>-->
 
     <!--
     <p class="foo">
